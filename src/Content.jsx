@@ -10,7 +10,7 @@ function Content({search}) {
     React.useEffect(() => {
         async function contentPost(){
           const contResponse = await fetch(URL)
-          const contentJSON = await contResponse.json();
+          const contentJSON = await contResponse.text();
           setInfor(contentJSON);
       }
       contentPost();
