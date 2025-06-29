@@ -16,12 +16,12 @@ function Content({search}) {
       contentPost();
     }, []);
     
-    // arumar outro jeito de fazer busca
+
   return <div>
      {infor.map((info, index) => (
       info.titulo.toLowerCase().includes(search.toLowerCase()) ||
       info.conteudo.toLowerCase().includes(search.toLowerCase()) ?
-     (<Card key={index} info={info} />) : null
+     (<Card info={info} index={index} />) : null
 ))}
     </div>
   
