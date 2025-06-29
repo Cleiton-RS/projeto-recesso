@@ -5,7 +5,7 @@ function Content({search}) {
 
   const [infor, setInfor] = React.useState([]);
     
-  const URL = '/public/posts.json';
+  const URL = './public/posts.json';
 
     React.useEffect(() => {
         async function contentPost(){
