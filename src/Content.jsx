@@ -9,9 +9,15 @@ function Content({search}) {
 
     React.useEffect(() => {
         async function contentPost(){
+          try{
           const contResponse = await fetch(URL)
           const contentJSON = await contResponse.json();
+          console.log(contentJSON)
           setInfor(contentJSON);
+          }
+          catch(err){
+            console.log(err)
+          }
       }
       contentPost();
     }, []);
