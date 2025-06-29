@@ -1,0 +1,100 @@
+.modal-completo{
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border: solid 2px #AFABB6;
+}
+
+.modal-completo.ativo {
+    display: flex;
+}
+
+.modal{
+    background: #121212;
+    position: relative;
+    width: 1400px;
+    height: 700px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+@keyframes modal {
+    from{
+        opacity: 0;
+        transform: translate3d(0, 30px, 0);
+    }
+    to{
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.ativo.modal{
+    animation: modal .7s forwards;
+}
+
+.fechar{
+    width: 80px;
+    height: 80px;
+    border: 2px solid #252525;
+    border-radius: 8px;
+    top: 12px;
+    right: 25px;
+    position: absolute;
+    background-color: #17171A;
+    font-size: 46px;
+    color: #E07B67;
+    font-family: "Space Grotesk", sans-serif;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.comecar{
+    width:1306px;
+    height: 56px;
+    
+}
+
+.datm{
+    width: -12px;
+    height: 19px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500px;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #E07B67;
+    padding-left: 10px;
+}
+
+
+.contentando h2{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 39px;
+    padding-left: 10px;
+    
+}
+
+.contentando p {
+    font-family: "Inter", sans-serif;
+    color: #AFABB6;
+    font-size: 23px;
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.imagem{
+    float: left;
+    padding-right: 20px;
+    padding-left: 10px;
+}

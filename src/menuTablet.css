@@ -1,0 +1,91 @@
+@media (max-width: 872px){
+
+    /*Cards */
+    .inicio{
+        width: 768px;
+        height: 283px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .busca{
+        width: 704px;
+        height: 56px;
+    }
+
+    .fieldList{
+        width: 768px;
+        height: 936px;
+        padding-top: 56px;
+        padding-left: 32px;
+        padding-bottom: 56px;
+        padding-right: 32px;
+        margin-top: 0px;
+        margin-left: 0px;
+        display: grid;
+        justify-content: center;
+    }
+
+    .card{
+        width: 704px;
+        height: 248px;
+    }
+
+    .content{
+        width: 624px;
+        height: 120px;
+    }
+
+    .titulo{
+        width: 624px;
+        height: 26px;
+    }
+
+    .intro{
+        width: 624px;
+        height: 78px;
+    }
+
+    /*Modal */
+
+    .modal{
+        width: 755px;
+        height: 710px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    .modal::-webkit-scrollbar{
+        width: 17px;
+    }
+
+    .modal::-webkit-scrollbar-thumb{
+        background: #E07B67;
+        border-left: 2px solid #121212;
+        border-right: 2px solid #121212;
+
+    }
+
+    .contentando h2{
+        font-size: 30px;
+    }
+
+    .contentando p{
+        font-size: 19px;
+    }
+
+    .imagem{
+        width: 220px;
+        height: 220px;
+    }
+
+    .datm{
+        font-size: 17px;
+    }
+
+    .fechar{
+        width: 60px;
+        height: 60px;
+        font-size: 34px;
+    }
+}

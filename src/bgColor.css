@@ -1,0 +1,123 @@
+.inicio{
+    background: #17171A;
+    width: 100%;
+    height: 283px;
+    border-bottom-width: 2px;
+    padding-top: 64px;
+    padding-bottom: 64px;
+    gap: 48px;
+    display: grid;
+    justify-content: center;
+
+}
+body{
+    background: #121214;
+}
+
+.cabeca{
+    color: #E07B67;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    line-height: 100%;
+    letter-spacing: 0%;
+    font-size: 40px;
+    display: inline;
+    height: 48px;
+    text-align: center;
+
+}
+
+.cabeca.dois{
+    color: white;
+}
+
+
+.fieldList{
+    
+    background: #121214;
+    width: 1216px;
+    height: 15px;
+    margin-top: 135px;
+    margin-left: 156px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    gap: 40px;
+}
+
+.busca{
+    background:#202024;
+    border: 2px solid #252529;
+    width: 1216px;
+    height: 56px;
+    border-radius: 8px;
+    padding-top: 16px;
+    padding-right: 24px;
+    padding-bottom: 16px;
+    padding-left: 24px;
+    color: #f6f6fd; 
+    font-size: 20px;
+    display: grid;
+}
+
+.datar{
+    width:1136px;
+    height: 32px;
+    gap: 981px;
+}
+
+.dat{
+    width: 123px;
+    height: 19px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #E07B67;
+}
+
+.card{
+    width: 1126px;
+    height: 243px;
+    border-radius: 8px;
+    border: 2px solid #252529;
+    padding: 40px;
+    gap: 20px;
+    background: #17171A;
+}
+
+.content{
+    width: 1136px;
+    height: 111px;
+    gap: 16px;
+}
+
+.titulo{
+    width: 684px;
+    height: 31px;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: white;
+}
+
+.intro{
+    width: 1136px;
+    height: 64px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    color: #AFABB6;
+}
+
+.card.sobre{
+
+    border: 2px solid #E07B67;
+}
+
+
+
