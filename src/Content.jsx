@@ -5,15 +5,11 @@ function Content({search}) {
 
   const [infor, setInfor] = React.useState([]);
     
-  const URL = './public/posts.json';
+  const URL = '/public/posts.json';
 
         async function contentPost(){
           try{
-          const contResponse = await fetch(URL, {
-            headers: {
-              'Accept': 'aplication/json'
-            }
-          })
+          const contResponse = await fetch(URL);
           const contentJSON = await contResponse.json();
           return setInfor(contentJSON);
           }
