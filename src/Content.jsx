@@ -7,21 +7,20 @@ function Content({search}) {
     
   const URL = './public/posts.json';
 
-    React.useEffect(() => {
         async function contentPost(){
           try{
           const contResponse = await fetch(URL)
           const contentJSON = await contResponse.json();
-          console.log(contentJSON)
           setInfor(contentJSON);
           }
           catch(err){
             console.log(err)
           }
-      }
-      contentPost();
-    }, []);
-    
+        }
+
+        React.useEffect(() =>{
+          contentPost();
+        }, []);
 
   return <div>
      {infor.map((info, index) => (
