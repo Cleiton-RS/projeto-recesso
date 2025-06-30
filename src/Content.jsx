@@ -11,7 +11,7 @@ function Content({search}) {
           try{
           const contResponse = await fetch(URL)
           const contentJSON = await contResponse.json();
-          setInfor(contentJSON);
+          return setInfor(contentJSON);
           }
           catch(err){
             console.log(err)
