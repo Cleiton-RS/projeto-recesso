@@ -9,7 +9,11 @@ function Content({search}) {
 
         async function contentPost(){
           try{
-          const contResponse = await fetch(URL)
+          const contResponse = await fetch(URL, {
+            headers: {
+              'Accept': 'aplication/json'
+            }
+          })
           const contentJSON = await contResponse.json();
           return setInfor(contentJSON);
           }
