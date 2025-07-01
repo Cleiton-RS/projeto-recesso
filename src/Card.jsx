@@ -26,6 +26,13 @@ const Card = ( {info} ) => {
 
     const divida = React.useRef();
 
+  const pegarData = new Date(info.data)
+  const dia = pegarData.getDate() + 1;
+  const mes = pegarData.getMonth();
+  const mesesNome = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']
+  const ano = pegarData.getFullYear();
+  
+
   return (
     <div>
         <div className={`${isActive ? "card sobre" : "card"}`}
@@ -33,7 +40,7 @@ const Card = ( {info} ) => {
         onClick={openModal}
         ref={divida}>
           <div className='datar'>
-            <p className='dat'>{info.data}</p>
+            <p className='dat'>{dia} de {mesesNome[mes]} de {ano}</p>
           </div>
           <div className='content'>
             <h3 className='titulo'>{info.titulo}</h3>
@@ -42,7 +49,7 @@ const Card = ( {info} ) => {
       </div><br /><br />
 
       <div>
-      {modalActive && <Modal modalActive={modalActive}  info={info} closeModal={closeModal} />}
+      {modalActive && <Modal modalActive={modalActive}  info={info} closeModal={closeModal} dia={dia} mes={mes} mesesNome={mesesNome} ano={ano} />}
       </div>
       
 

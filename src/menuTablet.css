@@ -1,53 +1,38 @@
-@media (max-width: 872px){
+@media (max-width: 770px){
 
-    /*Cards */
-    .inicio{
-        width: 768px;
-        height: 283px;
-        padding-left: 32px;
-        padding-right: 32px;
-    }
-
+    /*Cards*/
     .busca{
-        width: 704px;
-        height: 56px;
-    }
-
-    .fieldList{
-        width: 768px;
-        height: 936px;
-        padding-top: 56px;
-        padding-left: 32px;
-        padding-bottom: 56px;
-        padding-right: 32px;
-        margin-top: 0px;
-        margin-left: 0px;
-        display: grid;
-        justify-content: center;
+        height: 43px;
     }
 
     .card{
-        width: 704px;
-        height: 248px;
-    }
-
-    .content{
-        width: 624px;
-        height: 120px;
+        height: auto;
+        padding: 30px;
+        padding-top: 8px;
+        border-top: -15px;
     }
 
     .titulo{
-        width: 624px;
-        height: 26px;
+        font-size: 19.5px;
+        height: auto;
+        margin: 5px 5px 5px 5px;
     }
 
     .intro{
-        width: 624px;
-        height: 78px;
+        font-size: 15.5px;
     }
 
     .datar{
-        width: 768px;
+        height: 24px;
+    }
+
+    .fieldList{
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+    .dat{
+        font-size: 14px;
     }
 
     /*Modal */

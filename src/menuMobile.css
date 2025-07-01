@@ -1,68 +1,29 @@
 @media(max-width: 375px){
 
     .inicio{
-        width: 375px;
-        height: 208px;
-        padding-top: 48px;
-        padding-right: 12px;
-        padding-bottom: 48px;
-        padding-left: 12px;
-        gap: 40px;
-
+        height: 160px;
     }
 
     .busca{
-        width: 327px;
-        height: 37px;
-        gap: 32px;
-        padding-right: 5px;
-        padding-left: 5px;
-        font-size: 17px;
+        height: 33px;
     }
 
-    .fieldList{
-        width: 375px;
-        height: 1148px;
-        top: 209px;
-        padding-top: 40px;
-        padding-right: 5px;
-        padding-bottom: 40px;
-        padding-left: 5px;
-        gap: 40px;
-        display: grid;
-        justify-content: center;
-    }
-
-    .card{
-        width: 327px;
-        height: 330px;
-        padding-left: 12px;
-        padding-right: 12px;
-        padding-bottom: 10px;
-        padding-top: 20px;
-    }
-
-    .content{
-        width: 279px;
-        height: 226px;
-        padding-left: 25px;
+    .dat{
+        font-size: 11.8px;
     }
 
     .titulo{
-        width: 279px;
-        height: 78px;
-        font-size: 22px;
+        font-size: 17.7px;
     }
 
     .intro{
-        width: 279px;
-        height: 132px;
+        font-size: 13.7px;
     }
 
-    .datar{
-        width: 278px;
-        padding-left: 25px;
+    .cabeca{
+        font-size: 24px;
     }
+
 
     
     /*modal*/

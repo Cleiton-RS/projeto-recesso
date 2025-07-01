@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-function Modal({info, modalActive, closeModal, modalRef}) {  
+function Modal({info, modalActive, closeModal, dia, mes, mesesNome, ano}) {  
 
 
 
@@ -11,7 +11,7 @@ function Modal({info, modalActive, closeModal, modalRef}) {
           <button className='fechar'
         onClick={closeModal}>X</button>
           <div className='comecar'>
-            <p className='datm'>{info.data}</p>
+            <p className='datm'>{dia} de {mesesNome[mes]} de {ano}</p>
           </div>
           <div className='contentando' >
             <h2>{info.titulo}</h2>
